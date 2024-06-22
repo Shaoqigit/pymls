@@ -398,11 +398,11 @@ class Solver(object):
         Omega_0_fluid = np.array([
             [-u_z],
             [-1]
-        ], dtype=np.complex)
+        ], dtype=np.complex128)
         S_fluid = np.array([
             [-u_z],
             [1]
-        ], dtype=np.complex)
+        ], dtype=np.complex128)
 
         temp = np.array([
             [Omega_minus[0,0], Omega_0_fluid[0,0]],
@@ -505,11 +505,11 @@ class Solver(object):
         Omega_0_fluid = np.array([
             [-u_z],
             [-1]
-        ], dtype=np.complex)
+        ], dtype=np.complex128)
         S_fluid = np.array([
             [-u_z],
             [1]
-        ], dtype=np.complex)
+        ], dtype=np.complex128)
 
         temp = np.array([
             [Omega_minus[0,0], Omega_0_fluid[0,0]],
